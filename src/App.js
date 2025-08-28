@@ -140,7 +140,7 @@ function Header({ isGoldTheme, setIsGoldTheme }) {
   return (
     <header className="header">
       <div className="container header-inner">
-        <h1 className="title glow">📸 Ganesh Gallery</h1>
+        <h1 className="title glow">Ganesh Gallery</h1>
         <nav className="nav">
           <a href="#home">HOME</a>
           <a href="#gallery">GALLERY</a>
@@ -194,11 +194,11 @@ function Gallery({ photos, onPhotoClick, onDownload, onShare }) {
           <p className="note-text">
             📸 <strong>Note:</strong> These images have been uploaded. Additional photos will be added in the coming days.
           </p>
-          <p className="note-text contribution-note">
+          {/* <p className="note-text contribution-note">
             🙏 <strong>Contribute:</strong> If you have images of Lord Ganesh from different locations, please send them to our Instagram handle or email us. Contact details are in the contact section below.
-          </p>
+          </p> */}
           <div className="last-updated">
-            Last updated: August 27, 2025
+            Last updated: August 28, 2025
           </div>
         </div>
       </div>
@@ -430,31 +430,31 @@ function Footer() {
         <h2 className="footer-title">Contact Us</h2>
         <div className="contact-info">
           <div className="contact-item">
-            <strong>Email:</strong> 
+            <strong>Email:</strong>
             <a href="mailto:akashedits10@gmail.com" className="contact-link">
               akashedits10@gmail.com
             </a>
           </div>
           <div className="contact-item">
-            <strong>Instagram:</strong> 
+            <strong>Instagram:</strong>
             <a href="https://instagram.com/akashedits10" target="_blank" rel="noopener noreferrer" className="contact-link">
               @akashedits10
             </a>
           </div>
           <div className="contact-item">
-            <strong>Instagram:</strong> 
+            <strong>Instagram:</strong>
             <a href="https://instagram.com/the.photographer_10" target="_blank" rel="noopener noreferrer" className="contact-link">
               @the.photographer_10
             </a>
           </div>
           <div className="contact-item">
-            <strong>YouTube:</strong> 
+            <strong>YouTube:</strong>
             <a href="https://youtube.com/@AkashEdits" target="_blank" rel="noopener noreferrer" className="contact-link">
               AkashEdits Youtube
             </a>
           </div>
           <div className="contact-item">
-            <strong>Instagram:</strong> 
+            <strong>Instagram:</strong>
             <a href="https://instagram.com/shuvendughosh10" target="_blank" rel="noopener noreferrer" className="contact-link">
               @shuvendughosh10
             </a>
